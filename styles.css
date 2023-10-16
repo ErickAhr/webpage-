@@ -1,0 +1,245 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffcccc; /* Color de fondo suave */
+}
+/*MENU*/
+header {
+    background-color: #ff0066; /* Color de fondo del encabezado */
+    padding: 60px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*MENU*/
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*MENU*/
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Color del texto del menú */
+    font-weight: bold;
+    font-size: 28px;
+    transition: color 0.3s;
+}
+
+/*MENU*/
+nav ul li a:hover {
+    color: #ff9999; /* Color del texto del menú al pasar el mouse */
+}
+
+/* Estilo de amor */
+h1 {
+    color: #ff0066; /* Color del título principal */
+    text-align: center;
+}
+
+h1 span {
+    color: #ff0066; /* Color del texto destacado del título */
+}
+
+/* Estilo de contenido */
+#contenido {
+    margin: 40px;
+    padding: 20px;
+    background-color: #ffffff; /* Color de fondo del contenido */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 150%;
+}
+
+/*estilo para el parrafo1*/
+#parrafo1{
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff; /* Color de fondo del contenido */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    font-size: 137%;
+    color: #ff0066;
+    font-family: arial;
+}
+
+/* Estilo para los meses y metas */
+ul.submenu {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ul.submenu li {
+    margin: 5px 0;
+}
+
+/* Estilo de enlaces en el contenido */
+a.content-link {
+    color: #ff0066; /* Color de enlaces dentro del contenido */
+    text-decoration: underline;
+}
+
+a.content-link:hover {
+    color: #ff9999; /* Color de enlaces al pasar el mouse */
+}
+
+/* Estilo de pie de página */
+footer {
+    text-align: center;
+    background-color: #ff0066;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilo para la página "Meses Juntos" */
+.meses {
+    background-color: #fde6e6; /* Color de fondo suave */
+}
+
+/* Estilo para la página "Metas Futuras" */
+.metas {
+    background-color: #fce6fd; /* Color de fondo suave */
+}
+
+
+
+#parrafo2{
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff; /* Color de fondo del contenido */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    font-size: 137%;
+    color: #ff0066;
+    font-family: arial;
+}
+
+#video1{
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#subtitulo1{
+    text-align: center;
+}
+
+#Pris{
+    text-align: center;
+
+}
+
+#tc{
+    text-align: center;
+}
+
+#sobre1{
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+#pi{
+    text-align: center;
+}
+
+ /* Estilos CSS para tus enlaces */
+ .social-links {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Centra los enlaces en el contenedor */
+}
+.social-links li {
+    display: inline;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.social-links a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: #0074A2; /* Color de texto para los enlaces */
+    font-weight: bold; /* Texto en negrita */
+}
+.social-links a:hover {
+    color: #FF7F50; /* Cambia el color al pasar el mouse por encima */
+}
+
+#red{
+    text-align: center;
+    text-decoration: dotted;
+}
+
+/* Estilos CSS para la galería */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery-item {
+    max-width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Estilos CSS para el modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.modal-content {
+    max-width: 80%;
+    max-height: 80%;
+    margin: 10% auto;
+    display: block;
+}
+
+.close {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+/* Establece un tamaño fijo para los videos igual al de las imágenes */
+.gallery-item video {
+    width: 300px;
+    height: 200px;
+}
+
+
+#mes {
+    font-size: 36px; /* Tamaño de fuente */
+    font-family: Arial black; /* Familia de fuente */
+    color: #ff0080; /* Color de texto */
+    text-align: center; /* Alineación de texto */
+    text-decoration: underline; /* Decoración de subrayado */
+    padding: 10px; /* Espaciado interno */
+    border: 2px solid #ccc; /* Borde */
+}
+
+#tgf{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: #0074A2;
+    font-size: 39px;
+}
+
+#af{
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Lucida Sans';
+    border: 2px solid #ae2828;
+}
